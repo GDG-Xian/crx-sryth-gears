@@ -12,6 +12,14 @@
     "default_icon": "icon48.png"
   },
   "background": { "scripts": [ "background.js" ] },
+  "content_scripts": [
+    {
+      "matches": ["http://www.sryth.com/game/ci.php?f_c=parser2.inc*"],
+      "js": ["jquery-1.8.3.min.js", "contentscript.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ], 
   "options_page": "options.html",
   "permissions": [
     "tabs", "*://www.sryth.com/game/*"
