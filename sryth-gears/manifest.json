@@ -1,0 +1,26 @@
+{
+  "name": "Sryth Gears",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Plugins for Fantasy Text RPG - Sryth. http://www.sryth.com/ .",
+  "icons": {
+      "48": "icon48.png"
+  },
+  "browser_action": {
+    "default_title": "Sryth Gears 1.0",
+    "default_icon": "icon48.png"
+  },
+  "background": { "scripts": [ "background.js" ] },
+  "content_scripts": [
+    {
+      "matches": ["http://www.sryth.com/game/ci.php?f_c=parser2.inc*"],
+      "js": ["jquery-1.8.3.min.js", "contentscript.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ], 
+  "options_page": "options.html",
+  "permissions": [
+    "tabs", "*://www.sryth.com/game/*"
+  ]
+}
