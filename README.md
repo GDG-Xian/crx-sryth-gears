@@ -5,7 +5,7 @@ Plugins for Fantasy Text RPG - Sryth.  http://www.sryth.com/
 
 **Sryth Gears** is a free extension for Fantasy Text RPG **sryth** , and will support folling features:
 
- * Change size in content window. 
+ * Resize font in content window. 
  * Translate sentences under cursor. (using [Google Translate][gt] and coming soon...)
 
 **TODO:**
