@@ -11,11 +11,12 @@ Plugins for Fantasy Text RPG - Sryth.  http://www.sryth.com/
 **TODO:**
 
  * Translate content on mouse hover.
+ * Embeded sryth wiki.
  * Improve options page styles.
  * Show item details on hover.
  * Embeded notebook to save important things.(using google drive)
  * *Chat with adventures in the same place.*
-
+ 
 **Changelog:**
 
  * **2012-11-20**
